@@ -1,0 +1,57 @@
+body {
+    background-color: #e2f2fd;
+}
+
+.card {
+    align-items: center;
+    margin: 0 auto;
+    width: 22rem;
+}
+
+.margen {
+    margin-top: 5%;
+}
+
+.imagen {
+    width: 18rem;
+    height: auto;
+    border-radius: 1rem;
+    margin: auto 3vw;
+}
+
+h3 {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: #f8f9fa;
+}
+
+.trabajo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.col {
+    padding: 2rem;
+}
+
+.lead {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+}
+
+.justificado {
+    text-align: center;
+}
+
+#autor {
+    text-align: center;
+}

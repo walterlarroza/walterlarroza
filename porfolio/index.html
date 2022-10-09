@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <!-- Navbar content -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">WALTER LARROZA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#titulo">PORFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acercaMi">ACERCA DE MI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactame">CONTACTO</a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <div class="card margen " style="width: 18rem;">
+        <img src="Captura de Pantalla 2022-05-26 a la(s) 15.27.50.png" class="card-img-top " alt="...">
+        <div class="card-body">
+            <h5 class="card-title">WALTER LARROZA</h5>
+            <p class="card-text">Futuro Programador Web</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <h2 id="titulo">PORTFOLIO</h2><br><br>
+        <div class="row">
+            <div class="col">
+                <a href="https://willowy-zabaione-485861.netlify.app/"> <img class="imagen1" src="imagChica1.png" alt=""></a><br>
+                <h3 class="trabajo">Star Wars</h3>
+            </div>
+            <div class="col">
+                <a href="https://silly-donut-c5e3e9.netlify.app/"> <img class="imagen2" src="imagChica2.png" alt=""></a><br>
+                <h3 class="trabajo">Landing Page</h3>
+            </div>
+            <div class="col">
+                <a href="https://tourmaline-alfajores-14a082.netlify.app/"> <img class="imagen3" src="imagChica3.png" alt=""></a><br>
+                <h3 class="trabajo">Urgencia Pet</h3>
+            </div>
+        </div>
+    </div><br><br><br>
+    <h2 class="lead" id="acercaMi">Acerca de Mi</h2>
+    <hr>
+    <p class="lead justicado">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ex delectus quibusdam itaque inventore minima, temporibus eveniet doloribus, consectetur quae minus nulla possimus! Adipisci dolorem possimus cupiditate iusto quae quaerat. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit.</p>
+    <hr>
+    <div class="container margen">
+        <h2 id="contactame" style="text-align: center;">Contactame</h2>
+        <hr>
+        <form action="https://formspree.io/f/xbjwbjll" method="post">
+            <div class="mb-3">
+                <label class="form-label" for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="nombre y apellido">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="correo electronico">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="tel">Numero de telefono</label>
+                <input type="number" class="form-control" id="tel" aria-describedby="telHelp" placeholder="numero de telefono">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensaje</label>
+                <textarea class="form-control bg-y" id="exampleFormControlTextarea1" rows="3" name="Mensaje" placeholder="ingrese su mensaje"></textarea>
+            </div><br>
+            <button type="submit">Enviar</button><br><br>
+        </form>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h5>Redes sociales</h5>
+                <a href="https://www.facebook.com/PlataformaCinco"><img style="width: 8%;" src="facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com/plataforma5la"><img style="width: 8%;" src="twitter.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/plataforma5/?hl=en"><img style="width: 8%; border-radius: 3px;" src="instagram.png" alt="instagram"></a>
+            </div>
+            <div class="col-sm-6" style="margin: auto;">
+                <h5>Direccion</h5>
+                <h6>av.Magnolia 1259</h6>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <!--<div class="container">
+        <div class="row Copyright"> -->
+    <h6 id="autor">© Copyright Walter larroza</h6>
+    <!--    </div>
+    </div> -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
